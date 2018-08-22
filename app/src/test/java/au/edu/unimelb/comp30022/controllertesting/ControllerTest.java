@@ -2,6 +2,7 @@ package au.edu.unimelb.comp30022.controllertesting;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 
@@ -19,4 +20,9 @@ public class ControllerTest {
 
     }
 
+    @Test
+    public void testPostageCost() throws Exception {
+
+        assertTrue(true);
+    }
 }
